@@ -87,6 +87,7 @@ public class CarroHibrido extends Carro implements VeiculoCombustão, VeiculoEle
     @Override
     public String toString() {
         return "CarroHibrido{" +
+                "Numero de Serie' "+ getNumeroSerieVeiculo() + '\''+
                 "marca='" + getMarca() + '\'' +
                 ", modelo='" + getModelo() + '\'' +
                 ", kilometragem=" + getKilometragem() +

@@ -25,6 +25,7 @@ public class Moto extends Veiculo {
     @Override
     public String toString() {
         return "Moto{" +
+                "Numero de Serie' "+ getNumeroSerieVeiculo() + '\''+
                 "Marca='" + getMarca() + '\'' +
                 ", Modelo='" + getModelo() + '\'' +
                 ", Kilometragem=" + getKilometragem() +

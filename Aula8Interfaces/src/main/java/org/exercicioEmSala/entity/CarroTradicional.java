@@ -48,6 +48,7 @@ public class CarroTradicional extends Carro implements VeiculoCombustão {
     @Override
     public String toString() {
         return "CarroTradicional{" +
+                "Numero de Serie' "+ getNumeroSerieVeiculo() + '\''+
                 "Marca='" + getMarca() + '\'' +
                 ", Modelo='" + getModelo() + '\'' +
                 ", Kilometragem=" + getKilometragem() +

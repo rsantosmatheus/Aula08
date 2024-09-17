@@ -65,6 +65,7 @@ public class CarroEletrico extends Carro implements VeiculoEletrico {
     @Override
     public String toString() {
         return "CarroEletrico{" +
+                "Numero de Serie' "+ getNumeroSerieVeiculo() + '\''+
                 "Marca='" + getMarca() + '\'' +
                 ", Modelo='" + getModelo() + '\'' +
                 ", Kilometragem=" + getKilometragem() +
