@@ -2,8 +2,8 @@ package org.exercicioEmSala.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.exercicioEmSala.VeiculoCombustão;
-import org.exercicioEmSala.VeiculoEletrico;
+import org.exercicioEmSala.interfaces.VeiculoCombustão;
+import org.exercicioEmSala.interfaces.VeiculoEletrico;
 import org.exercicioEmSala.enums.TipoCambio;
 import org.exercicioEmSala.enums.TipoDirecao;
 
